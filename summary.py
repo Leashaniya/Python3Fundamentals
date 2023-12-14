@@ -97,14 +97,19 @@ print(choose)
 emptylist=[]
 emptylist.append("hi")
 emptylist.append("hello") 
-emptylist.append("how are you")   #append is a method ; object is a list we created 
+emptylist.append("how are you") 
+emptylist.append("how you doing")  #append is a method ; object is a list we created 
 print(emptylist[0])
 print(emptylist)
-emptylist.remove("hi")            #removing by giving the content in the list
-del emptylist[0]                  #removing by giving the index of the list
-print(emptylist)                  #remove is a method
+emptylist.remove("hi")             #removing by giving the content in the list
+del emptylist[0]                   #removing by giving the index of the list
+print(emptylist)                   #remove is a method
 
 if 1 in [1,2,3,4]:
-    print(True)
-    
+    print(True)                    #checking the item is in the list
+
+for result in emptylist:
+    print(emptylist)                #printing the item in the list in each line
+
+
 
