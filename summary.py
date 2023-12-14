@@ -137,9 +137,48 @@ expenses=[]
 num_expenses=int(input("enter the number of expenses: "))
 for i in range(num_expenses):
     expenses.append(float(input("enter the amount: ")))
-
 totals=sum(expenses)
-
 print("the total expenses is: ",totals)
+
+
+'''dictionaries'''
+#---------------------
+#dictionary contains key and the value
+word={}                    #empty list
+
+#adding new item to the dictionary
+word['lol']='laugh out loud'
+word['idk']='i dont know'
+word['wbu']="what about you"
+print(word['lol'])
+print(word)
+
+#updating value 
+word['idk']="i don't know"
+print(word)
+
+#deleting key and the value
+del word['wbu']
+print(word)
+
+'''wrong=word['we']
+print(wrong)''' #this will crash the program since there is no key as 'we'
+
+right=word.get("we")         #get gives the value of the key
+print(right)                 #if the key doesn't exist it gives the output as none
+
+#for loops in dictionary only the key value will be printed 
+for i in word:
+    print(i)
+
+#to get the key and the value in for loops
+for i,j in word.items():      #items is the keyword here to add
+    print(i,":",j)
+
+
+
+
+
+
 
 
