@@ -94,4 +94,17 @@ print(choose)
 
 '''list and loops'''
 #-----------------------
+emptylist=[]
+emptylist.append("hi")
+emptylist.append("hello") 
+emptylist.append("how are you")   #append is a method ; object is a list we created 
+print(emptylist[0])
+print(emptylist)
+emptylist.remove("hi")            #removing by giving the content in the list
+del emptylist[0]                  #removing by giving the index of the list
+print(emptylist)                  #remove is a method
+
+if 1 in [1,2,3,4]:
+    print(True)
+    
 
