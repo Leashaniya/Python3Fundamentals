@@ -1,1 +1,1 @@
-summary and the nested contacts programs are available
+summary of the basics, lists and dictionaries
