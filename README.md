@@ -1,1 +1,1 @@
-summary and the nested contacts program available
+summary and the nested contacts programs are available
