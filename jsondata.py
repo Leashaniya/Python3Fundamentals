@@ -9,5 +9,19 @@ for i in result['people']:
     print(i)
 
 #just only printing the name part 
-for j in result['people']:
+for j in result['people']:                  #name and people are key
     print(j['name'])  
+
+
+#format of the dictonary and the list was
+'''
+{'message':'success',
+ 'people': 
+        [{
+            'name':'jasmin', 'craf' : 'iss'
+            .....
+            ....
+
+        }]   
+        }
+''' 
