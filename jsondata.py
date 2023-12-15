@@ -1,5 +1,6 @@
 import requests
 
+#people in space now
 response=requests.get("http://api.open-notify.org/astros.json")
 result=response.json()
 print(result) 
