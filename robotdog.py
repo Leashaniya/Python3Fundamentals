@@ -17,9 +17,10 @@ class robot_dog:
         self.name=name
         self.breed=breed
     def bark(self):                         #bark is a method or behavior
-        print("woof woof")
-
+        # print("woof woof")
+        return "woof"
 doggy=robot_dog('jimmy','anybreed')
 # print(doggy.name)
 # print(doggy.breed)
-doggy.bark()
+# doggy.bark()
+print(doggy.bark())
