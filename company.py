@@ -10,13 +10,18 @@ class company:
     def displayemployee(self):
         print('curent employees:')
         for i in self.employees:
-            print(i.fname,i.lastname)
+            print(i.firstname,i.lastname)
         print("----------------------------")
 
+    def payemployee(self):
+        print('paying employees:')
+        for j in self.employees:
+            print('paycheck for',j.firstname,j.lastname)
+            print(f'amount ${j.paycheck():,.2f}')
+            print("----------------------------")
 
     
 def main():
-    print("hello")
     mycompany=company()
 
     employee1=Employee('leasha','krish',50000)
@@ -25,6 +30,7 @@ def main():
     employee2=Employee('nithya','krish',200000)
     mycompany.addemployee(employee2)
 
-    print(mycompany.displayemployee)
+    mycompany.displayemployee()
+    mycompany.payemployee()
 
 main()
