@@ -7,3 +7,6 @@ class robot:
     def walk(self,x):
         self.position[0]=self.position[0]+x
         print("my new position is: ",self.position)
+
+    def eat(self):
+        print("I'm hungry")
