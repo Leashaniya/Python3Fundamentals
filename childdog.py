@@ -7,6 +7,6 @@ class dog(robot):
     def makenoise(self):
         print("woof woof")
 
-germanshepherd=robot('jimmy')
+germanshepherd=dog('jimmy')
 germanshepherd.makenoise()
 germanshepherd.walk(5)
