@@ -9,3 +9,8 @@ class Employee:
     
 # employee15=Employee('leasha','krish',50000)
 # print(employee15.firstname)
+# print(employee15.lastname)
+# print(employee15.paycheck())
+    
+# to print the float value in two decimal places
+# print(f'{employee15.paycheck():,.2f}')
