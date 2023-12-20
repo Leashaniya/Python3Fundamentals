@@ -1,3 +1,5 @@
+from parentrobot import robot
+
 class dog(robot):
     
     #by default it calls robot init method
