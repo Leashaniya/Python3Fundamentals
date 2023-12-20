@@ -19,5 +19,5 @@ germanshepherd.makenoise()
 germanshepherd.walk(5)
 #method overriding
 germanshepherd.eat()
-#if we wanted to call the parent class as well uncomment the super method line
+#if we wanted to call the parent class as well;  uncomment the super method line
 
