@@ -3,4 +3,6 @@ btw - by the way
 fifo - first in first out
 ml - machine learning
 go - go out
-
+hay - how are you
+wa - whats up
+gta - a game

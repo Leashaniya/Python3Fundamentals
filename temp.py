@@ -3,6 +3,9 @@
 #open the file
 #write the new acronym and definition to the file 
 
+#connected with the file workingfile.txt
+
+
 acronym=input("what acronym you want to add \n")
 definition=input("what is the definition \n")
 
